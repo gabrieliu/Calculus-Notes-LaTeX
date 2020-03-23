@@ -166,6 +166,62 @@
         
         因为$\lim\limits_{n \to \infty}\displaystyle\frac{n}{\sqrt{n^2+n}}=\lim\limits_{n\to\infty}\displaystyle\frac{1}{\sqrt{\frac{1}{n}+1}}=1$且$\lim\limits_{n \to \infty}\displaystyle\frac{n}{\sqrt{n^2+1}}=\lim\limits_{n\to\infty}\displaystyle\frac{1}{\sqrt{\frac{1}{n^2}+1}}=1$，故得到$\lim\limits_{n \to \infty}b_n=1$。
     \end{solution}
+
+    \begin{example}
+        求极限$ \lim\limits_{n \to \infty}(\displaystyle\frac{1}{n^2+1}+\displaystyle\frac{1}{n^2+2}+\cdots+\displaystyle\frac{n}{n^2+n}) $。
+    \end{example}
+    \begin{solution}
+        令$ b_n=\displaystyle\frac{1}{n^2+1}+\displaystyle\frac{1}{n^2+2}+\cdots+\displaystyle\frac{n}{n^2+n}$，从而$\displaystyle\frac{1}{2}=\displaystyle\frac{n(n+1)}{2(n^2+n)} \leq b_n \leq\displaystyle\frac{n(n+1)}{2(n^2+1)}$。则$\lim\limits_{n \to \infty}$左$=\lim\limits_{n \to \infty}$右$=\displaystyle\frac{1}{2}$。故所求极限为$\displaystyle\frac{1}{2}$。
+    \end{solution}
+
+    \begin{example}
+        求极限$ \lim\limits_{n \to \infty}(\displaystyle\frac{1}{n+1}+\displaystyle\frac{1}{n+2}+\cdots+\displaystyle\frac{1}{n+n}) $。
+    \end{example}
+    \begin{solution}
+        \begin{align*}
+            \lim_{n \to \infty}(\frac{1}{n+1}+\frac{1}{n+2}+\cdots+\frac{1}{n+n})
+            &=\lim_{n \to \infty}\sum_{i=1}^n\frac{1}{n+i} \\
+            &=\lim_{n \to \infty}\frac{1}{n}\sum_{i=1}^n\frac{n}{n+i}\\
+            &=\lim_{n \to \infty}\frac{1}{n}\sum_{i=1}^n\frac{1}{1+\frac{i}{n}}\\
+            &= \int_0^1\frac{1}{1+x}\mathrm{d}x=\ln(x+1)\bigg|_{0} ^1=\ln 2
+        \end{align*}
+    \end{solution}
+
+    \begin{example}
+        求极限$ \lim\limits_{n \to \infty}(\displaystyle\frac{n}{n^2+1^2}+\displaystyle\frac{n}{n^2+2^2}+\cdots+\displaystyle\frac{n}{n^2+n^2}) $。
+    \end{example}
+    \begin{solution}
+        \begin{align*}
+            \lim_{n \to \infty}(\frac{n}{n^2+1^2}+\frac{n}{n^2+2^2}+\cdots+\frac{n}{n^2+n^2})
+            &=\lim_{n \to \infty}\sum_{i=1}^n\frac{n}{n^2+i^2} \\
+            &=\lim_{n \to \infty}\frac{1}{n}\sum_{i=1}^n\frac{n^2}{n^2+i^2}\\
+            &=\lim_{n \to \infty}\frac{1}{n}\sum_{i=1}^n\frac{1}{1+\frac{i^2}{n^2}}\\
+            &= \int_0^1\frac{1}{1+x^2}\mathrm{d}x=\arctan x\bigg|_{0} ^1=\frac{\pi}{4}
+        \end{align*}
+    \end{solution}
+    \begin{note}
+        对于$n$个数相加，分子或分母不齐次的情况，用夹逼定理；
+        
+        对于分子、分母齐次且分母多一次的情况，用定积分定义。
+    \end{note}
+    我们还有另一个著名的判定数列极限存在性的定理，也即如下性质：
+    \begin{property}
+        单调有界数列必有极限。
+    \end{property}
+    这个性质可以分为两类来讨论，一为单调递增有上界，二为单调递减有下界。
+    \subsubsection*{型二例题:极限存在性证明}
+    \begin{example}
+        已知，$a_1=\sqrt{2}, a_2=\sqrt{2+\sqrt{2}}, a_3=\sqrt{2+\sqrt{2+\sqrt{2}}}, \cdots$
+
+        证明$\lim\limits_{n \to \infty}a_n$存在，并求之。
+    \end{example}
+    \begin{solution}
+        显然，$ \{a_n\} $单调递增，现在我们证明$ a_n \leq 2$，采用数学归纳法：
+
+        首先，$ a_1=\sqrt{2}<2 $。假设$a_k\leq 2$，则$a_{k+1} =\sqrt{2+a_k}\leq \sqrt{2+2}=2$。因此 $a_n \leq 2$。从而由单调有界定理知$\lim\limits_{n \to \infty}a_n$存在。下面求出这个极限：
+
+        设极限为$A$，由$a_{n+1}=\sqrt{2+a_n}$，令$ n \to \infty $，两边平方有$ A^2=A+2 $，解得$ A=2 $或 $ A=-1 $。由于$a_n>a_1=\sqrt{2}$，故$ A=-1 $舍去。从而极限为$ 2 $。
+    \end{solution}
 \end{document}
 
 
