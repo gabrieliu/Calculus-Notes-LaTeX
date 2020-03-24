@@ -222,6 +222,28 @@
 
         设极限为$A$，由$a_{n+1}=\sqrt{2+a_n}$，令$ n \to \infty $，两边平方有$ A^2=A+2 $，解得$ A=2 $或 $ A=-1 $。由于$a_n>a_1=\sqrt{2}$，故$ A=-1 $舍去。从而极限为$ 2 $。
     \end{solution}
+
+    \begin{example}
+        已知$ a_1=2, a_{n+1}=\displaystyle\frac{1}{2}(a_n+\displaystyle\frac{1}{a_n})$。证明：$\lim\limits_{n \to \infty}a_n$存在。
+    \end{example}
+    \begin{solution}
+        先证明$ a_n>0 $:
+        由于$a_1>0$，故设$a_k>0$。则$a_{k+1}=\displaystyle\frac{1}{2}(a_k+\displaystyle\frac{1}{a_{k+1}})>0$。于是根据均值不等式可以得到$a_{n+1} \geq 1$。而$a_{n+1}-a_n=\displaystyle\frac{1}{2}(a_n+\displaystyle\frac{1}{a_{n+1}})-a_n=\displaystyle\frac{1}{2}(\displaystyle\frac{1}{a_n}-a_{n+1})$。由于$a_{n} \geq 1$，故$\displaystyle\frac{1}{a_n} \leq a_n$。从而，$a_{n+1}-a_n \leq 0$。于是数列$ \{a_n\} $单调递减，又有$a_n \geq 1$，从而得到$\lim\limits_{n \to \infty}a_n$存在。
+    \end{solution}
+
+    \section{无穷小的性质}
+    \subsection{一般性质}
+    \begin{enumerate}
+        \item 若$ \alpha \to 0 $且$ \beta \to 0 $，则：
+        \[ \left\{
+            \begin{array}{rl}
+                \alpha \pm \beta & \to 0,\\
+                k \alpha & \to 0,\\
+                \alpha \beta & \to 0.
+            \end{array} \right. \]
+        \item 若$ \vert \alpha \vert \leq M, \beta \to 0$，则$\alpha \beta \to 0$。
+        \item $\alpha \to 0, \lim\limits f(x)=A \Leftrightarrow f(x)=A+\alpha$。
+    \end{enumerate}
 \end{document}
 
 
