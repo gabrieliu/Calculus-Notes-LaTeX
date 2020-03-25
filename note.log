@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.5)  24 MAR 2020 19:56
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.5)  25 MAR 2020 12:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1287,7 +1287,7 @@ File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 24.
- (./note.aux)
+ (./note.aux (./chapter1.aux) (./chapter2.aux))
 \openout1 = `note.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -1458,6 +1458,9 @@ File: ./figure/logo-blue.png Graphic file (type bmp)
 
 
 ]
+\openout2 = `chapter1.aux'.
+
+ (./chapter1.tex
 第\nobreakspace {}一\nobreakspace {}章 1.
 (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 
@@ -1484,35 +1487,36 @@ Package fontspec Info: Font family 'KaiTi(0)' created for font 'KaiTi' with
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 58.
-LaTeX Font Info:    Try loading font information for U+ding on input line 69.
+(Font)              scaled to size 8.0pt on input line 27.
+LaTeX Font Info:    Try loading font information for U+ding on input line 38.
  (c:/texlive/2019/texmf-dist/tex/latex/bbding/Uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
 )
-Invalid UTF-8 byte or sequence at line 87 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 87 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 87 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 87 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 87 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 87 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 87 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 87 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
 File: ./image/2.eps Graphic file (type eps)
 <./image/2.eps>
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 88.
+(Font)              scaled to size 10.95pt on input line 57.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 88.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 57.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.95pt on input line 88.
+(Font)              scaled to size 10.95pt on input line 57.
  [1
+
 
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 109.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 78.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 109.
+(Font)              scaled to size 14.4pt on input line 78.
 
 Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
 (fontspec)             doesn't exist).
@@ -1536,20 +1540,29 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 (fontspec)             <->"FangSong/OT:script=hani;language=DFLT;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
- (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [2] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [3] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [4] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 247.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 247.
- (./note.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 247.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 247.
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [2] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [3] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [4]) (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [5]
+\openout2 = `chapter2.aux'.
+
+ (./chapter2.tex
+第\nobreakspace {}二\nobreakspace {}章 2.
+(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) [6
+
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 33.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 33.
+ (./note.aux (./chapter1.aux) (./chapter2.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 33.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 33.
  ) 
 Here is how much of TeX's memory you used:
- 46824 strings out of 492909
- 961830 string characters out of 6136300
+ 46844 strings out of 492909
+ 962209 string characters out of 6136300
  1392490 words of memory out of 5000000
- 50097 multiletter control sequences out of 15000+600000
+ 50101 multiletter control sequences out of 15000+600000
  580357 words of font info for 129 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  69i,16n,124p,2645b,1423s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on note.pdf (7 pages).
+Output written on note.pdf (8 pages).
