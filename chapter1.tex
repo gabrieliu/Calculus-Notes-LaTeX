@@ -200,8 +200,8 @@
         由于$a_1>0$，故设$a_k>0$。则$a_{k+1}=\displaystyle\frac{1}{2}(a_k+\displaystyle\frac{1}{a_{k+1}})>0$。于是根据均值不等式可以得到$a_{n+1} \geq 1$。而$a_{n+1}-a_n=\displaystyle\frac{1}{2}(a_n+\displaystyle\frac{1}{a_{n+1}})-a_n=\displaystyle\frac{1}{2}(\displaystyle\frac{1}{a_n}-a_{n+1})$。由于$a_{n} \geq 1$，故$\displaystyle\frac{1}{a_n} \leq a_n$。从而，$a_{n+1}-a_n \leq 0$。于是数列$ \{a_n\} $单调递减，又有$a_n \geq 1$，从而得到$\lim\limits_{n \to \infty}a_n$存在。
     \end{solution}
 
-    \section{无穷小的性质}
-    \subsection{一般性质}
+    \subsection{无穷小的性质}
+    \subsubsection*{（一）一般性质}
     \begin{enumerate}
         \item 若$ \alpha \to 0 $且$ \beta \to 0 $，则：
         \[ \left\{
@@ -213,3 +213,55 @@
         \item 若$ \vert \alpha \vert \leq M, \beta \to 0$，则$\alpha \beta \to 0$。
         \item $\alpha \to 0, \lim\limits f(x)=A \Leftrightarrow f(x)=A+\alpha$。
     \end{enumerate}
+    \subsubsection*{（二）等价性质}
+    \begin{enumerate}
+        \item \begin{enumerate}
+            \item $ \alpha \sim \alpha $(自反性)；
+            \item $ \alpha \sim \beta \Rightarrow \beta \sim \alpha $(对称性)；
+            \item $ \alpha \sim \beta , \beta \sim \gamma \Rightarrow \alpha \sim \gamma $(传递性)。
+        \end{enumerate}
+        \item $ \alpha \sim \alpha_1, \beta \sim \beta_1, \lim \displaystyle\frac{\beta_1}{\alpha_1} =A$，则$\lim \displaystyle\frac{\beta}{\alpha} =A$。
+        \item \textbf{当$x \to 0$时：} \begin{enumerate}
+            \item $x \sim \sin x \sim \tan x \sim \arcsin x \sim \arctan x \sim \mathrm{e}^x -1 \sim \ln{(x+1)}$；
+            \item $1- \cos x \sim \displaystyle\frac{1}{2} x^2$；
+            \item $(1+x)^a-1 \sim ax$。
+        \end{enumerate}
+    \end{enumerate}
+    
+    \section{两个重要极限}
+    我们先证明如下结论：
+
+    当$ 0<x<\displaystyle\frac{\pi}{2} $时，有
+    \begin{align*}
+        \sin x<x<\tan x
+    \end{align*}
+        \begin{proof}
+        如图\ref{dwy}所示，在单位圆中，当$ 0<x<\displaystyle\frac{\pi}{2}$时，有
+        $S_{\bigtriangleup AOB}=\displaystyle\frac{1}{2}r^2 \sin x=\displaystyle\frac{1}{2}\sin x=S_1$， 
+        $S_{\text{扇形} AOB}=\displaystyle\frac{1}{2}x=S_2$， 
+        $S_{\mathrm{Rt} \bigtriangleup AOC}=\displaystyle\frac{1}{2}AC=\displaystyle\frac{1}{2}\tan x=S_3$。
+        
+        显然有
+        \begin{align*}
+            S_3>S_2>S_1
+        \end{align*}
+        从而，
+        \begin{align*}
+            \frac{1}{2}\tan x>\frac{1}{2}x>\frac{1}{2}\sin x
+        \end{align*}
+        于是，$\sin x<x<\tan x$证明完毕。
+        \begin{figure}[htbp]
+            \centering
+            \includegraphics[width=0.7\textwidth]{3.eps}
+            \caption{单位圆}
+            \label{dwy}
+          \end{figure}
+        \end{proof}
+        \begin{note}
+            这里给出的证明并不够严谨，但更严密的证明需要引入幂级数对$\sin x$进行重新定义，这里不再阐述。
+        \end{note}
+        
+
+
+
+   
