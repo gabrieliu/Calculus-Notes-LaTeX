@@ -206,9 +206,9 @@
         \item 若$ \alpha \to 0 $且$ \beta \to 0 $，则：
         \[ \left\{
             \begin{array}{rl}
-                \alpha \pm \beta & \to 0,\\
-                k \alpha & \to 0,\\
-                \alpha \beta & \to 0.
+                & \alpha \pm \beta  \to 0,\\
+                & k \alpha  \to 0,\\
+                & \alpha \beta  \to 0.
             \end{array} \right. \]
         \item 若$ \vert \alpha \vert \leq M, \beta \to 0$，则$\alpha \beta \to 0$。
         \item $\alpha \to 0, \lim\limits f(x)=A \Leftrightarrow f(x)=A+\alpha$。
@@ -229,6 +229,7 @@
     \end{enumerate}
     
     \section{两个重要极限}
+    \subsection{准备工作}
     我们先证明如下结论：
 
     当$ 0<x<\displaystyle\frac{\pi}{2} $时，有
@@ -261,6 +262,55 @@
             这里给出的证明并不够严谨，但更严密的证明需要引入幂级数对$\sin x$进行重新定义，这里不再阐述。
         \end{note}
         
+        \subsection{两个重要极限式}
+        \begin{enumerate}
+            \item $\lim\limits_{\Delta \to 0} \frac{\sin \Delta}{\Delta}=1$
+            \item $\lim\limits_{\Delta \to 0} (1+\Delta)^{\frac{1}{\Delta}}=\mathrm{e}$
+        \end{enumerate}
+        \begin{note}
+            这里的$\Delta$表示一切具有趋于零状态的变量与表达式，需要当作一个整体来进行处理。
+        \end{note}
+
+        \subsubsection*{型三例题:不定型}
+        所谓不定型，就是指含有“无穷”与0的极限求解。包含$ 
+        \frac{0}{0} $型，$ 1^{\infty} $型，$ 
+        \frac{\infty}{\infty} $型，$ 
+        \infty \times \infty $型，$ 
+        \infty - \infty $型，$ 
+        \infty^{0} $型与$0^{0} $型。
+
+        下面分类进行讲解。
+        \begin{enumerate}
+            \item $ \displaystyle\frac{0}{0} $型
+            
+            \begin{enumerate}
+                \item 习惯：    
+                    \[ \left\{
+                        \begin{array}{rl}
+                            & u(x)^{v(x)}  \Rightarrow \mathrm{e}^{v(x)\ln u(x)},\\
+                            & \ln {(\quad )}   \Rightarrow \ln{(1+\Delta)} \sim \Delta(\Delta \to 0),\\
+                            & (\quad)-1  \Rightarrow \left\{ \begin{array}{rl} & \mathrm{e}^{\Delta}-1  \sim \Delta;\\
+                                & (1+\Delta)^a-1  \sim a\Delta.
+                            \end{array} \right. (\Delta \to 0)\\
+                            & x-\ln (1+x) \Rightarrow \text{二阶无穷小},\\
+                            & x,\sin x,\tan x, \arcsin x, \arctan x \Rightarrow \text{任意两个之差为三阶无穷小}。
+                        \end{array} \right. \]
+                \item 注意：例如，$\lim\limits_{x \to 0} \displaystyle\frac{x-\sin x}{x^3} \neq \lim\limits_{x \to 0} \displaystyle\frac{x-x}{x^3}=0$
+            \end{enumerate}
+
+            \begin{example}
+              求极限： $ \lim\limits_{x\to 0} \displaystyle\frac{\tan x-\sin x}{x^3}$。
+            \end{example}
+            
+            \begin{solution}
+                \begin{align*}
+                   \text{原式}
+                   &=\lim_{x \to 0}\frac{\tan(1-\cos x)}{x^3}\\
+                    &=\lim_{x \to 0}\frac{x(\frac{1}{2}x^2)}{x^3}=\frac{1}{2}
+                \end{align*}
+                     
+            \end{solution}
+        \end{enumerate}
 
 
 

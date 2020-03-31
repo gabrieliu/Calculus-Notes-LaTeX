@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.5)  28 MAR 2020 12:30
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.5)  31 MAR 2020 20:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1542,23 +1542,25 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [2] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [3] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [4] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [5]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 241.
-Invalid UTF-8 byte or sequence at line 255 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 255 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 255 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 255 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 255 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 255 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 255 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 255 replaced by U+FFFD.
+(Font)              scaled to size 6.0pt on input line 242.
+Invalid UTF-8 byte or sequence at line 256 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 256 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 256 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 256 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 256 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 256 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 256 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 256 replaced by U+FFFD.
 File: ./image/3.eps Graphic file (type eps)
 <./image/3.eps>
-) (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [6]
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [6]
+Missing character: There is no 。 in font cmr12!
+) (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [7]
 \openout2 = `chapter2.aux'.
 
  (./chapter2.tex
 第\nobreakspace {}二\nobreakspace {}章 2.
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) [7
+(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) [8
 
 
 
@@ -1570,12 +1572,12 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 33.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 33.
  ) 
 Here is how much of TeX's memory you used:
- 46903 strings out of 492909
- 965389 string characters out of 6136300
+ 46942 strings out of 492909
+ 967205 string characters out of 6136300
  1392490 words of memory out of 5000000
- 50155 multiletter control sequences out of 15000+600000
- 583181 words of font info for 132 fonts, out of 8000000 for 9000
+ 50188 multiletter control sequences out of 15000+600000
+ 583213 words of font info for 136 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  69i,16n,124p,2645b,1423s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on note.pdf (9 pages).
+Output written on note.pdf (10 pages).
