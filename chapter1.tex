@@ -308,8 +308,55 @@
                    &=\lim_{x \to 0}\frac{\tan(1-\cos x)}{x^3}\\
                     &=\lim_{x \to 0}\frac{x(\frac{1}{2}x^2)}{x^3}=\frac{1}{2}
                 \end{align*}
-                     
             \end{solution}
+
+            \begin{example}
+                求极限：$\lim\limits_{x \to 0} \displaystyle\frac{(1+x^2)^{\sin x}-1}{x^2 \ln (1+2x)}$。
+            \end{example}
+
+            \begin{solution}
+                \begin{align*}
+                \text{原式}
+                &=\lim_{x \to 0}\frac{\mathrm{e}^{\sin x \ln (1+x^2)}-1}{2x^3}\\
+                 &=\lim_{x \to 0}\frac{\mathrm{e}^{x^3}-1}{2x^3}=\frac{1}{2}
+             \end{align*}
+            \end{solution}
+
+            \begin{example}
+                求极限：$\lim\limits_{x \to 0} \displaystyle\frac{(\frac{1+\cos x}{2})^x-1}{x^3}$。
+            \end{example}
+
+            \begin{solution}
+            \begin{align*}
+                \text{原式}
+                &=\lim_{x \to 0}\frac{\mathrm{e}^{x \ln{\frac{1+\cos x}{2}}}-1}{x^3}\\
+                 &=\lim_{x \to 0}\frac{\ln{\frac{1+\cos x}{2}}}{x^2}\\
+                 &=\lim_{x \to 0} \frac{\ln{(1+\frac{\cos x-1}{2})}}{x^2}\\
+                 &=\lim_{x \to 0}\frac{\frac{\cos x-1}{2}}{x^2}\\
+                 &=\lim_{x \to 0}\frac{\frac{1}{2} (-\frac{1}{2}x^2)}{x^2}=-\frac{1}{4}
+            \end{align*}
+            \end{solution}
+
+            \item $ 1^{\infty} $型:
+            
+
+            主要有两种方法：一是凑出$(1+\Delta)^{\frac{1}{\Delta}}$的形式，二是恒等变形。
+
+            \begin{example}
+                求极限：$\lim\limits_{ x \to 0}(1-x\sin x)^{\frac{1}{x - \ln (1+x)}}$。
+            \end{example}
+            
+            \begin{solution}
+                \begin{align*}
+                    \text{原式}
+                    &=\lim_{ x\to 0}(1+(-x \sin x))^{-\frac{1}{x \sin x} \cdot -\frac{x \sin x}{x-\ln (1+x)}}\\
+                    &= \mathrm{e}^{-\lim\limits_{x \to 0}\frac{x \sin x}{x-\ln(1+x)}}\\
+                    &= \mathrm{e}^{-\lim\limits_{x \to 0}\frac{x^2}{x -\ln(1+x)}}\\
+                    &= \mathrm{e}^{-\lim\limits_{x \to 0}\frac{2x}{\frac{x}{1+x}}}\\
+                    &= \mathrm{e}^{-\lim\limits_{x \to 0}2(x+1)}=\mathrm{e}^{-2}
+                \end{align*}
+            \end{solution}
+
         \end{enumerate}
 
 
