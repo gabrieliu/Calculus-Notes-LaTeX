@@ -357,8 +357,40 @@
                 \end{align*}
             \end{solution}
 
-        \end{enumerate}
+            \begin{example}
+                求极限：$\lim\limits_{x \to \infty}(\cos \frac{1}{x})^{x^2}$。
+            \end{example}
+            
+            \begin{solution}
+                \begin{align*}
+                    \text{原式}
+                    &= \lim_{x \to \infty} (1+\cos \frac{1}{x}-1)^{\frac{1}{\cos{\frac{1}{x}-1}}x^2(\cos\frac{1}{x}-1)}\\
+                    &=\mathrm{e}^{\lim\limits_{x\to \infty}x^2(\cos \frac{1}{x}-1)}\\
+                    &=\mathrm{e}^{\lim\limits_{x \to \infty}\frac{\cos\frac{1}{x}-1}{\frac{1}{x^2}}}\\
+                    &\xlongequal{t=\frac{1}{x}}\mathrm{e}^{\lim\limits_{t \to 0}\frac{\cos t-1}{t^2}}\\
+                    &=\mathrm{e}^{-\frac{1}{2}}
+                \end{align*}
+            \end{solution}
 
+            \begin{example}
+                求极限：$\lim\limits_{x \rightarrow 0}\left(\displaystyle\frac{1+x}{1+\sin x}\right)^{\frac{1}{x^{3}}}$
+            \end{example}
+
+            \begin{solution}
+                \begin{align*}
+                    \text{原式}
+                    &=\lim_{ x \to 0}\left[\left(1+\frac{x-\sin x}{1+\sin x}\right)^{\frac{1+ \sin x}{x-\sin x}}\right]^{\frac{x-\sin x}{1+\sin x}\frac{1}{x^3}}\\
+                    &=\mathrm{e}^{\lim\limits_{x \to 0}\frac{1}{1+\sin x}\frac{x -\sin x}{x^3}}\\
+                    &=\mathrm{e}^{\lim\limits_{x \to 0}\frac{1 -\cos x}{3x^2}}\\
+                    &=\mathrm{e}^{\frac{1}{6}}
+                \end{align*}
+            \end{solution}
+
+            \item $\infty - \infty$ 型：
+            \begin{example}
+                
+            \end{example}
+        \end{enumerate}
 
 
    
