@@ -388,8 +388,56 @@
 
             \item $\infty - \infty$ 型：
             \begin{example}
-                
+                求极限：$\lim\limits_{x \to 0}(\displaystyle\frac{1}{x^2}-\displaystyle\frac{1}{(\tan x)^2})$
             \end{example}
+
+            \begin{solution}
+                \begin{align*}
+                    \text{原式}
+                    &=\lim_{x \to 0}(\frac{(\tan x)^2-x^2}{(\tan x)^2 x^2})\\
+                    &=\lim_{x \to 0}\frac{(\tan x)^2 -x^2}{x^4}\\
+                    &=\lim_{x \to 0}\frac{\tan x +x}{x} \times \frac{\tan x -x}{x^3}\\
+                    &=2\lim_{x \to 0}\frac{(\sec x)^2 -1}{3x^2}\\
+                    &=\frac{2}{3}\lim_{x \to 0}\frac{(\tan x)^2}{x^2}=\frac{2}{3}
+                \end{align*}
+            \end{solution}
+
+            \begin{example}
+                求极限：$\lim_{x \to \infty}(\sqrt{x^2-4x+8}-x)$
+            \end{example}
+
+            \begin{solution}
+                \begin{align*}
+                    \text{原式}
+                    &=\lim_{x \to \infty}\frac{-4x+8}{\sqrt{x^2-4x+8}+x}\\
+                    &=\lim_{x \to \infty}\frac{-4+\frac{8}{x}}{\sqrt{1-\frac{4}{x}+\frac{8}{x^2}}+1}\\
+                    &=2
+                \end{align*}
+            \end{solution}
+
+            \item $ \displaystyle\frac{\infty}{\infty} $型:
+            \begin{enumerate}
+                \item                     
+                \[ \lim_{x \to \infty} \frac{b_m x^m+b_{m-1}x^{m-1}+\cdots+b_0}{a_n x^n+a_{n-1}x^{n-1}+\cdots+a_0}
+                \left\{
+                    \begin{array}{rl}
+                        &= 0, \quad m<n\\
+                        &= \frac{b_m}{a_m},\quad m=n\\
+                        &= \infty,\quad m>n
+                    \end{array} \right. \]
+            \end{enumerate}
+
+        \begin{example}
+            已知：$\lim\limits_{n \to \infty}\displaystyle\frac{n^{2019}}{(n+1)^a-n^a}=k(\neq 0,\neq \infty)$，求$a,k$。
+        \end{example}
+        
+        \begin{solution}
+            \begin{align*}
+                (n+1)^a &=\mathrm{C}_a^0 n^a+\mathrm{C}_a^1 n^{a-1}+\cdots+\mathrm{C}_a^a\\
+                &=n^a+an^{a-1}+A
+            \end{align*}
+            所以，$(n+1)^a-n^a=an^{a-1}+A$。从而，$a-1=2019 \Rightarrow a=2020$，则$k=\displaystyle\frac{1}{2020}$。
+        \end{solution}
         \end{enumerate}
 
 

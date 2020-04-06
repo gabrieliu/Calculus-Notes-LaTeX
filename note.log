@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.5)  3 APR 2020 19:53
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.5)  6 APR 2020 17:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1557,12 +1557,12 @@ File: ./image/3.eps Graphic file (type eps)
 <./image/3.eps>
  (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [6]
 Missing character: There is no 。 in font cmr12!
- (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [7] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [8]) (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [9]
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [7] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [8] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [9]) (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [10]
 \openout2 = `chapter2.aux'.
 
  (./chapter2.tex
 第\nobreakspace {}二\nobreakspace {}章 2.
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) [10
+(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) [11
 
 
 
@@ -1574,12 +1574,12 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 34.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 34.
  ) 
 Here is how much of TeX's memory you used:
- 46983 strings out of 492909
- 968266 string characters out of 6136300
+ 46986 strings out of 492909
+ 968446 string characters out of 6136300
  1392490 words of memory out of 5000000
- 50221 multiletter control sequences out of 15000+600000
+ 50222 multiletter control sequences out of 15000+600000
  583213 words of font info for 136 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  69i,16n,124p,2645b,1423s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on note.pdf (12 pages).
+Output written on note.pdf (13 pages).
