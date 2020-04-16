@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.5)  6 APR 2020 17:12
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.5)  16 APR 2020 19:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/OneDrive - hust.edu.cn/Documents/LaTeX/Notes-Calculus/note"
-(d:/OneDrive - hust.edu.cn/Documents/LaTeX/Notes-Calculus/note.tex
+**note
+(./note.tex
 LaTeX2e <2018-12-01>
 (./elegantbook.cls
 Document Class: elegantbook 2020/02/10 v3.10 ElegantBook document class
@@ -1116,7 +1116,7 @@ Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 458.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 458.
 Package hyperref Info: Option `colorlinks' set `true' on input line 458.
 Package hyperref Info: Option `plainpages' set `false' on input line 458.
-Package hyperref Info: Option `linktocpage' set `true' on input line 458.
+Package hyperref Info: Option `linktocpage' set `false' on input line 458.
  (c:/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/07/16 v2.11 Sectioning titles
 \ttl@box=\box102
@@ -1283,35 +1283,35 @@ Package: xeCJK-listings 2019/06/02 v3.7.4 xeCJK patch file for listings
 \l__xeCJK_listings_max_char_int=\count395
 \l__xeCJK_listings_flag_int=\count396
 )
-LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 25.
+LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 28.
  (c:/texlive/2019/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 25.
+(Font)              scaled to size 12.0pt on input line 28.
  (./note.aux (./chapter1.aux) (./chapter2.aux))
 \openout1 = `note.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1348,7 +1348,7 @@ LaTeX Font Info:    ... okay on input line 25.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 25.
+LaTeX Info: Redefining \selectfont on input line 28.
 \c@mv@tabular=\count397
 \c@mv@boldtabular=\count398
 Package caption Info: Begin \AtBeginDocument code.
@@ -1368,7 +1368,7 @@ Package footmisc Info: Declaring symbol style lamport* on input line 903.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 924.
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box117
-Package hyperref Info: Link coloring ON on input line 25.
+Package hyperref Info: Link coloring ON on input line 28.
  (c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (c:/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1376,11 +1376,11 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count400
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
 \c@lstlisting=\count401
-Package hyperref Info: Option `pageanchor' set `false' on input line 27.
+Package hyperref Info: Option `pageanchor' set `false' on input line 30.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: a4paper
@@ -1416,35 +1416,35 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 27.
 File: ./figure/cover8.png Graphic file (type bmp)
 <./figure/cover8.png>
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <12> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 27.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 27.
+(Font)              scaled to size 12.0pt on input line 30.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 27.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 27.
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 27.
+(Font)              scaled to size 24.88pt on input line 30.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 30.
  (c:/texlive/2019/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 27.
+LaTeX Font Info:    Try loading font information for U+msa on input line 30.
  (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 27.
+LaTeX Font Info:    Try loading font information for U+msb on input line 30.
  (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 27.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 20.74pt on input line 27.
+(Font)              scaled to size 20.74pt on input line 30.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 27.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 27.
+(Font)              scaled to size 17.28pt on input line 30.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 27.
+(Font)              scaled to size 12.0pt on input line 30.
 File: ./figure/logo-blue.png Graphic file (type bmp)
 <./figure/logo-blue.png>
  [1
@@ -1567,19 +1567,19 @@ Missing character: There is no 。 in font cmr12!
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 34.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 34.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 37.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
  (./note.aux (./chapter1.aux) (./chapter2.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 34.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 34.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 37.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 37.
  ) 
 Here is how much of TeX's memory you used:
  46986 strings out of 492909
- 968446 string characters out of 6136300
- 1392490 words of memory out of 5000000
- 50222 multiletter control sequences out of 15000+600000
+ 968280 string characters out of 6136300
+ 1392498 words of memory out of 5000000
+ 50223 multiletter control sequences out of 15000+600000
  583213 words of font info for 136 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 69i,16n,124p,2645b,1423s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,16n,124p,2586b,1423s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on note.pdf (13 pages).

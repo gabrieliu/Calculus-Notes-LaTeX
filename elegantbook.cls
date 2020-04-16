@@ -448,13 +448,13 @@
   bookmarksopen=true,
   pdfkeywords={ElegantBook},
   colorlinks,
-  linkcolor=winered,
+  linkcolor=blue,
   citecolor=winered,
   urlcolor=winered,
   plainpages=false,
   pdfstartview=FitH,
   pdfborder={0 0 0},
-  linktocpage
+  linktocpage=false
 }
 
 %%   章节设置
