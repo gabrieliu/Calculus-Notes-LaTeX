@@ -123,7 +123,7 @@
         如果$ f(x)\leq g(x)\leq h(x) $且$ \lim\limits_{x \to a}f(x)=\lim\limits_{x \to a}h(x)=A $，则$ \lim\limits_{x \to a}g(x)=A $。
     \end{enumerate}
     \end{property}
-    \subsubsection*{型一例题:$n$项和求极限}
+    \subsubsection*{型一:$n$项和求极限}
     \begin{example}
         求极限：$\lim\limits_{n \to \infty}(\displaystyle\frac{1}{\sqrt{n^2+1}}+\displaystyle\frac{1}{\sqrt{n^2+2}}+ \cdots +\frac{1}{\sqrt{n^2+n}})$
     \end{example}
@@ -178,7 +178,7 @@
         单调有界数列必有极限。
     \end{property}
     这个性质可以分为两类来讨论，一为单调递增有上界，二为单调递减有下界。
-    \subsubsection*{型二例题:极限存在性证明}
+    \subsubsection*{型二:极限存在性证明}
     \begin{example}
         已知，$a_1=\sqrt{2}, a_2=\sqrt{2+\sqrt{2}}, a_3=\sqrt{2+\sqrt{2+\sqrt{2}}}, \cdots$
 
@@ -271,7 +271,7 @@
             这里的$\Delta$表示一切具有趋于零状态的变量与表达式，需要当作一个整体来进行处理。
         \end{note}
 
-        \subsubsection*{型三例题:不定型}
+        \subsubsection*{型三:不定型}
         所谓不定型，就是指含有“无穷”与0的极限求解。包含$ 
         \frac{0}{0} $型，$ 1^{\infty} $型，$ 
         \frac{\infty}{\infty} $型，$ 
@@ -499,7 +499,17 @@
                 &=\lim_{t \to 0}\frac{\frac{t}{t+1}}{2t}=\frac{1}{2}
             \end{align*}
         \end{solution}
+
+        \item $0^0$型和$\infty ^{0}$型
+
+        这两种都可以化成$\mathrm{e}^{\ln}$的形式。
+
+        \begin{example}
+            $\lim\limits_{x \to 0^{+}}x^x=\lim\limits_{x \to 0^{+}}\mathrm{e}^{x \ln x}=\lim\limits_{x \to 0^{+}}\mathrm{e}^{\frac{\ln x}{1/x}}=\lim\limits_{x \to 0^{+}}\mathrm{e}^{\frac{1/x}{-1/x^2}}=0$
+        \end{example}
         \end{enumerate}
 
+        \subsubsection*{型四:左右极限}
+        \FiveStar $a^{\displaystyle\frac{?}{x-b}}$或$a^{\displaystyle\frac{?}{b-x}}$当$x \to b$时一定存在。
 
    
