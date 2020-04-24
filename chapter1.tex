@@ -250,7 +250,7 @@
         \begin{align*}
             \frac{1}{2}\tan x>\frac{1}{2}x>\frac{1}{2}\sin x
         \end{align*}
-        于是，$\sin x<x<\tan x$证明完毕。
+        于是，$\sin x<x<\tan x$证明完毕。 \qed
         \begin{figure}[htbp]
             \centering
             \includegraphics[width=0.7\textwidth]{3.eps}
@@ -511,5 +511,27 @@
 
         \subsubsection*{型四:左右极限}
         \FiveStar $a^{\displaystyle\frac{?}{x-b}}$或$a^{\displaystyle\frac{?}{b-x}}$当$x \to b$时一定存在。
+
+        \begin{example}
+            已知$ f(x)=\mathrm{e}^{\frac{x}{x-2}}$，求极限$\lim\limits_{x \to 2}f(x)$。
+        \end{example}
+
+        \begin{solution}
+            因为 $f(2-0)=0 , f(2+0)=+\infty$，故该极限不存在。
+        \end{solution}
+
+        \begin{example}
+            $f(x)=\displaystyle\frac{1-2^{\frac{1}{x-1}}}{1+2^{\frac{1}{x-1}}}$，求$\lim\limits_{x \to 1}f(x)$。
+        \end{example}
+
+        \begin{solution}
+            因为$f(1-0)=\displaystyle\frac{1}{1}=1, f(1+0)=\displaystyle\frac{1-\infty}{1+\infty}=-1$，故$\lim\limits_{x \to 1}f(x)$不存在。
+        \end{solution}
+        这个函数的图像如下图所示：
+        \begin{figure}[htbp]
+            \centering
+            \includegraphics[width=0.7\textwidth]{4.eps}
+            \caption{$f(x)$的图像}
+          \end{figure}
 
    
