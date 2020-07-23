@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.5)  14 MAY 2020 14:52
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.5)  23 JUL 2020 11:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1413,8 +1413,8 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 30.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-File: ./figure/cover8.png Graphic file (type bmp)
-<./figure/cover8.png>
+File: ./figure/cover-galaxy.jpg Graphic file (type bmp)
+<./figure/cover-galaxy.jpg>
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <12> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
@@ -1435,10 +1435,6 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 30.
  (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 30.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 20.74pt on input line 30.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
@@ -1451,7 +1447,12 @@ File: ./figure/logo-blue.png Graphic file (type bmp)
 
 
 
-] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (./note.toc)
+]
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 32.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 20.74pt on input line 32.
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (./note.toc)
 \tf@toc=\write8
 \openout8 = `note.toc'.
 
@@ -1584,11 +1585,11 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 37.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 37.
  ) 
 Here is how much of TeX's memory you used:
- 46996 strings out of 492909
- 968690 string characters out of 6136300
+ 47004 strings out of 492909
+ 970186 string characters out of 6136300
  1392498 words of memory out of 5000000
- 50228 multiletter control sequences out of 15000+600000
- 583213 words of font info for 136 fonts, out of 8000000 for 9000
+ 50236 multiletter control sequences out of 15000+600000
+ 578080 words of font info for 115 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  69i,16n,124p,2586b,1423s stack positions out of 5000i,500n,10000p,200000b,80000s
 
