@@ -739,7 +739,7 @@
 \renewcommand{\sectionmark}[1]{\markright{\thesection\, #1}{} }
 \renewcommand{\chaptermark}[1]{\markboth{\chaptername \, #1\,}{}}
 
-\renewcommand{\baselinestretch}{1.35} 
+\renewcommand{\baselinestretch}{1.8} 
 
 \renewcommand*{\maketitle}{%
 \hypersetup{pageanchor=false}

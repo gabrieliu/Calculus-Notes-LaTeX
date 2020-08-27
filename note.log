@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.5)  23 JUL 2020 11:24
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.5)  27 AUG 2020 11:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1494,7 +1494,11 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 LaTeX Font Info:    Try loading font information for U+ding on input line 38.
  (c:/texlive/2019/texmf-dist/tex/latex/bbding/Uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
-)
+) [1
+
+
+
+]
 Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 56 replaced by U+FFFD.
@@ -1511,15 +1515,11 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 57.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 10.95pt on input line 57.
- [1
-
-
-
-]
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 78.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.4pt on input line 78.
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [2]
 
 Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
 (fontspec)             doesn't exist).
@@ -1543,7 +1543,7 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 (fontspec)             <->"FangSong/OT:script=hani;language=DFLT;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
- (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [2] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [3] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [4] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [5]
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [3] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [4] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [5] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [6]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 6.0pt on input line 242.
 Invalid UTF-8 byte or sequence at line 256 replaced by U+FFFD.
@@ -1556,9 +1556,9 @@ Invalid UTF-8 byte or sequence at line 256 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 256 replaced by U+FFFD.
 File: ./image/3.eps Graphic file (type eps)
 <./image/3.eps>
- (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [6]
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [7]
 Missing character: There is no 。 in font cmr12!
- (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [7] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [8] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [9] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [10]
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [8] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [9] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [10] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [11]
 Invalid UTF-8 byte or sequence at line 533 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 533 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 533 replaced by U+FFFD.
@@ -1568,12 +1568,12 @@ Invalid UTF-8 byte or sequence at line 533 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 533 replaced by U+FFFD.
 File: ./image/4.eps Graphic file (type eps)
 <./image/4.eps>
- (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [11]) (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [12]
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [12] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [13]) (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [14]
 \openout2 = `chapter2.aux'.
 
  (./chapter2.tex
 第\nobreakspace {}二\nobreakspace {}章 2.
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) [13
+(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) [15
 
 
 
@@ -1585,12 +1585,12 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 37.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 37.
  ) 
 Here is how much of TeX's memory you used:
- 47004 strings out of 492909
- 970186 string characters out of 6136300
- 1392498 words of memory out of 5000000
+ 47008 strings out of 492909
+ 970508 string characters out of 6136300
+ 1389497 words of memory out of 5000000
  50236 multiletter control sequences out of 15000+600000
  578080 words of font info for 115 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 69i,16n,124p,2586b,1423s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,16n,124p,2586b,1377s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on note.pdf (15 pages).
+Output written on note.pdf (17 pages).
