@@ -534,7 +534,8 @@
             \caption{$f(x)$的图像}
           \end{figure}
 
-          \section{连续的有关定义}
+          \section{连续与间断}
+          \subsection{相关定义}
           \begin{enumerate}
               \item 连续
               \begin{enumerate}
@@ -570,3 +571,5 @@
         \begin{solution}
             容易看出，$ x=0, x=1$为间断点。因为 $x \to 0$ 时，  $1-e^{\frac{x}{x-1}} \sim \displaystyle\frac{x}{1-x}$，故 $\lim\limits_{x \to 0}f(x) = \lim\limits_{x \to 0}e^{\frac{1}{x-1}}\times \displaystyle\frac{x}{1-e^{\frac{x}{x-1}}}=\lim\limits_{x\to 0}e^{-1}\times\displaystyle\frac{x}{\frac{x}{1-x}}=e^{-1}$，从而 $x=0$ 为可去间断点。而 $f(1-0)=0 \neq f(1+0)=-\lim\limits_{x\to 1^+}e^{\frac{1-x}{x-1}}=-e^{-1}$，从而 $x=1$ 为跳跃间断点。
         \end{solution}
+
+        \subsection{$f(x) \in C[a,b]$}

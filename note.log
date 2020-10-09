@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.5)  27 AUG 2020 11:26
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.5)  9 OCT 2020 09:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1568,7 +1568,20 @@ Invalid UTF-8 byte or sequence at line 533 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 533 replaced by U+FFFD.
 File: ./image/4.eps Graphic file (type eps)
 <./image/4.eps>
- (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [12] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [13]) (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [14]
+ (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [12] (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [13]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 575.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\in' on input line 575.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 575.
+
+) (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [14]
 \openout2 = `chapter2.aux'.
 
  (./chapter2.tex
@@ -1585,10 +1598,10 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 37.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 37.
  ) 
 Here is how much of TeX's memory you used:
- 47008 strings out of 492909
- 970508 string characters out of 6136300
+ 47010 strings out of 492909
+ 970520 string characters out of 6136300
  1389497 words of memory out of 5000000
- 50236 multiletter control sequences out of 15000+600000
+ 50238 multiletter control sequences out of 15000+600000
  578080 words of font info for 115 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  69i,16n,124p,2586b,1377s stack positions out of 5000i,500n,10000p,200000b,80000s
