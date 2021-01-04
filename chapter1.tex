@@ -1,7 +1,7 @@
 \chapter{极限与连续}
 \section{极限的有关定义}
 \begin{definition}{数列极限}{lim}
-数列$\{a_n\}$，若对于$ \forall\varepsilon>0 $，$ \exists N>0 $，当$ n>N $时，有
+数列$\{a_n\}$，若$ \forall\varepsilon>0 $，$ \exists N>0 $，当$ n>N $时，有
 \begin{align}
     \vert{a_n-A}\vert<\varepsilon
 \end{align}
@@ -14,7 +14,7 @@
 
 
 \begin{definition}{函数极限-1}{limf1}
-函数$f(x)$，若对于$ \forall\varepsilon>0 $，$ \exists \delta>0 $，当$ 0<\vert x-a\vert <\delta $时，有
+函数$f(x)$，若$ \forall\varepsilon>0 $，$ \exists \delta>0 $，当$ 0<\vert x-a\vert <\delta $时，有
 \begin{align}
     \vert{f(x)-A}\vert<\varepsilon
 \end{align}
@@ -581,10 +581,43 @@
             \item 有界
             
             若 $f(x)$ 在 $[a,b]$ 上连续，则存在 $k>0$ ，使得 $|f(x)|\leq k$；
-        \end{enumerate}
         \begin{figure}[htbp]
             \centering
             \includegraphics[width=0.3\textwidth]{5.png}
             \caption{$f(x)$的图像}
           \end{figure}
+
+          \item 零点定理
+          
+          若 $f(x) \in [a,b]$ 且 $f(a)f(b)<0$ ，则 $\exists c\in [a,b]$,使得 $f(c)=0$。
+          \item 介值定理
+           
+          $f(x) \in C[a,b] $，则 $\forall \eta \in [m,M],\exists \xi \in [a,b]$,使得 $f(\xi)=\eta $。（位于最小值 $m$ 和最大值 $M$ 之间的任何值皆可被 $f(x)$ 取到）。
+        \end{enumerate}
+
+        \begin{example}
+            证明：方程 $x^5-4x+1=0$ 至少有一个正根。
+        \end{example}
+
+        \begin{solution}
+            令 $f(x)=x^5-4x+1$。由于 $f(0)=1>0,f(1)=1-4+1<0$，故根据零点定理，存在 $x_0 \in (0,1)$，使得 $f(x)=0$，也即方程 $x^5-4x+1=0$ 至少有一个正根。\qed
+        \end{solution}
+
+        \begin{example}
+            $f(x)\in C[a,b],p,q>0$，且$p+q=1$。
+
+            证明：存在 $\xi \in [a,b]$，使得 $f(\xi)=pf(a)+qf(b)$。
+        \end{example}
+
+        \begin{solution}
+            由于 $f(x)\in C[a,b]$ ，故 $f(x)$ 在  $[a,b]$ 上存在最小值 $m$ 和最大值 $M$。而 $pf(a)+qf(b)\leq pM+qM=M$，且 $pf(a)+qf(b)\geq  pm+qm=m$，从而 $pf(a)+qf(b) \in [m,M]$。根据介值定理，存在 $\xi \in [a,b]$， $f(\xi)=pf(a)+qf(b)$。 \qed
+        \end{solution}
+
+        \begin{example}
+            $f(x) \in C[0,2],f(0)+2f(1)+3f(2)=6$。证明：$\exists c \in [0,2]$,使得 $f(c)=1$。
+        \end{example}
+
+        \begin{solution}
+            由于 $f(x)\in C[0,2]$ ，故 $f(x)$ 在  $[0,2]$ 上存在最小值 $m$ 和最大值 $M$。于是 $6m\leq f(0)+2f(1)+3f(2) \leq 6M$，故 $m \leq 1 \leq M$。根据介值定理，存在 $c\in[0,2]$， $f(c)=1$。\qed
+        \end{solution}
 

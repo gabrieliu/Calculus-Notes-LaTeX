@@ -10,4 +10,5 @@
 \contentsline {section}{\numberline {1.4}连续与间断}{13}{section.1.4}% 
 \contentsline {subsection}{\numberline {1.4.1}相关定义}{13}{subsection.1.4.1}% 
 \contentsline {subsection}{\numberline {1.4.2}函数在区间上连续}{14}{subsection.1.4.2}% 
-\contentsline {chapter}{\numberline {2}导数与微分}{15}{chapter.2}% 
+\contentsline {chapter}{\numberline {2}导数与微分}{16}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}导数的有关定义}{16}{section.2.1}% 
