@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.5)  4 JAN 2021 00:51
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.9.5)  8 JAN 2021 21:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1576,24 +1576,33 @@ File: ./image/5.png Graphic file (type bmp)
 
  (./chapter2.tex
 第\nobreakspace {}二\nobreakspace {}章 2.
-(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) [16
+(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [16
 
 
 
 ]
+
+LaTeX Font Warning: Font shape `TU/KaiTi(0)/bx/n' undefined
+(Font)              using `TU/KaiTi(0)/m/n' instead on input line 45.
+
+(c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [17]) (c:/texlive/2019/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [18]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 37.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
  (./note.aux (./chapter1.aux) (./chapter2.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 37.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 37.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
  ) 
 Here is how much of TeX's memory you used:
- 47027 strings out of 492909
- 970810 string characters out of 6136300
- 1389496 words of memory out of 5000000
- 50244 multiletter control sequences out of 15000+600000
- 578080 words of font info for 115 fonts, out of 8000000 for 9000
+ 47045 strings out of 492909
+ 971405 string characters out of 6136300
+ 1389497 words of memory out of 5000000
+ 50257 multiletter control sequences out of 15000+600000
+ 578088 words of font info for 116 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 69i,16n,124p,2586b,1377s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,16n,124p,2586b,1494s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on note.pdf (18 pages).
+Output written on note.pdf (20 pages).

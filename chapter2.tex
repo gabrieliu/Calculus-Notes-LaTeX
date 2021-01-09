@@ -1,6 +1,6 @@
 \chapter{导数与微分}  
 \section{导数的有关定义}
-\begin{definition}{导数}
+\begin{definition}{导数}{derivative}
     设函数 $y=f(x),x\in D$。现有一点 $x_0\in D$且 $x_0+\Delta x \in D$。定义 $\Delta y=f(x_0+\Delta x)-f(x_0)$。
 
     若极限
@@ -9,6 +9,73 @@
     \end{align}
     存在，则称 $f(x)$ 在 $x_0$ 处可导，称该极限为 $f(x)$ 在 $x_0$ 处的导数。记作
     \begin{align}
-        \lim_{\Delta x \to 0}\frac{\Delta y}{\Delta x}=f'(x_0)
+        \lim_{\Delta x \to 0}\frac{\Delta y}{\Delta x} \triangleq f'(x_0)
     \end{align}
 \end{definition}
+
+\begin{note}
+    \begin{enumerate}
+        \item 等价定义：
+        
+        由于当 $x \to x_0$时，有 $f(x) \to f(x_0)$，而 $\Delta x =x-x_0$，$\Delta y = f(x)-f(x_0)$，从而导数又可以表示为
+        \begin{align}
+            \lim_{x \to x_0}\frac{ f(x)-f(x_0)}{x-x_0}\triangleq f'(x_0)
+        \end{align}
+        \item 左右导数
+        
+        $\Delta x \to 0$ 分为两种情况：$\Delta x  \to 0^{-}$ 以及
+        $\Delta x  \to 0^{+}$；同理，$ x \to a$也分为两种情况：$ x \to a^{-}$以及 $ x \to a^{+}$。从而我们可以类似地得到：
+
+        \begin{align}
+            \lim_{\Delta x \to 0^{-}}\frac{\Delta y}{\Delta x} \triangleq f_{-}'(x_0) 
+       \end{align}
+
+       \begin{align}
+           \lim_{\Delta x \to 0^{+}}\frac{\Delta y}{\Delta x} \triangleq f_{+}'(x_0) 
+       \end{align}
+
+        并且，可以给出一点导数存在的充要条件，也即：
+
+        $f'(x_0)$ 存在 $\Leftrightarrow f_{-}'(x_0),f_{+}'(x_0) $ 均存在且相等。
+
+        \item 可导性与连续性
+        
+        $f(x)$ 在 $x_0$ 处可导，则 $f(x)$ 在$x_0$ 处连续，反之则不然。证明从略。
+        \begin{example}
+            设 \[f(x) = \begin{cases}
+                e^x-1, & x<0,\\
+                \ln(1+2x), & x \ge 0
+            \end{cases}\],
+            
+            求 $f'(0)$。
+        \end{example}
+        
+        \begin{solution}
+            先考虑连续性。
+        
+            由于 $f(0-0)=0=f(0+0)$，故 $f(x)$ 在 $x=0$ 处连续。
+        
+            再考虑可导性。
+        
+            由于 $f_{-}'(0)=\lim\limits_{x\to 0_{-}}\frac{f(x)-0}{x-0}=\lim\limits_{x \to 0_{-}}\frac{e^x-1}{x}=1$，
+        
+            $f_{+}'(0)=\lim\limits_{x\to 0_{+}}\frac{f(x)-0}{x-0}=\lim\limits_{x \to 0_{-}}\frac{\ln(1+2x)}{x}=2 \neq f_{-}'(0)$，
+        
+            故 $f'(0)$ 不存在。
+        \end{solution}
+
+        \item 已知 $f(x)$ 连续，
+        
+        若 $\lim\limits_{x \to a}\frac{f(x)-b}{x-a}=A$，则 $f(a)=b,f'(a)=A$。
+
+        这是因为当 $\lim\limits_{x \to a}\frac{f(x)-b}{x-a}=A$时，由于分母为 $0$，则分子必须也为 $0$ 才能存在极限；根据导数定义又能推出 $f'(a)=A$。
+        \end{enumerate}
+    \section{可微}
+    \begin{definition}{可微}{kewei}
+    设函数 $y=f(x),x\in D$。现有一点 $x_0\in D$且 $x_0+\Delta x \in D$。定义 $\Delta y=f(x_0+\Delta x)-f(x_0)$。若$\Delta y=A\Delta x+o(\Delta x)$，则称 $f(x)$在 $x_0$ 可微。
+    \end{definition}
+        
+\end{note}
+
+
+
