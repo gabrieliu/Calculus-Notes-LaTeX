@@ -13,3 +13,4 @@
 \contentsline {chapter}{\numberline {2}导数与微分}{16}{chapter.2}% 
 \contentsline {section}{\numberline {2.1}导数的有关定义}{16}{section.2.1}% 
 \contentsline {section}{\numberline {2.2}可微}{18}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}求导工具}{18}{section.2.3}% 

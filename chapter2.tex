@@ -42,10 +42,12 @@
         
         $f(x)$ 在 $x_0$ 处可导，则 $f(x)$ 在$x_0$ 处连续，反之则不然。证明从略。
         \begin{example}
-            设 \[f(x) = \begin{cases}
+            设 \begin{align*}
+                f(x) = \begin{cases}
                 e^x-1, & x<0,\\
                 \ln(1+2x), & x \ge 0
-            \end{cases}\],
+            \end{cases}
+        \end{align*},
             
             求 $f'(0)$。
         \end{example}
@@ -70,11 +72,29 @@
 
         这是因为当 $\lim\limits_{x \to a}\frac{f(x)-b}{x-a}=A$时，由于分母为 $0$，则分子必须也为 $0$ 才能存在极限；根据导数定义又能推出 $f'(a)=A$。
         \end{enumerate}
+        \end{note}
     \section{可微}
     \begin{definition}{可微}{kewei}
-    设函数 $y=f(x),x\in D$。现有一点 $x_0\in D$且 $x_0+\Delta x \in D$。定义 $\Delta y=f(x_0+\Delta x)-f(x_0)$。若$\Delta y=A\Delta x+o(\Delta x)$，则称 $f(x)$在 $x_0$ 可微。
+    设函数 $y=f(x),x\in D$。现有一点 $x_0\in D$且 $x_0+\Delta x \in D$。定义 $\Delta y=f(x_0+\Delta x)-f(x_0)$。若$\Delta y=A\Delta x+o(\Delta x)$，则称 $f(x)$在 $x_0$ 可微。将 $A\Delta x$记作 $\dd{y}$，称为 $f(x)$ 在 $x=x_0$处的微分。
     \end{definition}
-        
+    
+    \begin{note}
+        \begin{enumerate}
+            \item 可导 $\Leftrightarrow$ 可微；
+            \item 若$\Delta y = A\Delta x+o(\Delta x)$，则 $A=f'(x_0)$；
+            \item 设 $y=f(x)$ 可导，则 $\dd{y} = \dd{f(x)}=f'(x)\dd{x}$，如 $\dd{x^3}=3x^2\dd{x}$。 
+        \end{enumerate}
+    
+    \section{求导工具}
+    （一）求导公式：
+    \begin{enumerate}
+        \item $C'=0$
+        \item $(x^a)'=ax^{a-1}$
+        \item $(a^x)'=a^x\ln a$，特别地，$(e^x)'=e^x$
+        \item $(\log_a x)'=\frac{1}{x\ln a}$，特别地，$(\ln x)'=\frac{1}{x}$
+        \item $(\sin x)'=\cos x,(\cos x)'=-\sin x,(\tan x)'=\sec ^2 x$
+    \end{enumerate}
+
 \end{note}
 
 
